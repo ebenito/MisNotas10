@@ -1,0 +1,69 @@
+﻿<Page
+    x:Class="MyNotes10.Views.BackupOneDrive"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyNotes10.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:CustomTriggers="using:MyNotes10.CustomTriggers"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!--ContentPanel. Colocar aquí el contenido adicional-->
+        <Border Background="#FFE8E4E4" VerticalAlignment="Top" >
+            <StackPanel Orientation="Horizontal"   >
+                <Image Source="ms-appx:///Assets/onedrive.png" Stretch="UniformToFill" VerticalAlignment="Top" Height="90"  Margin="30,0,0,0"  >
+                    <Image.Projection>
+                        <PlaneProjection CenterOfRotationX="0" CenterOfRotationY="0" GlobalOffsetY="-10"/>
+                    </Image.Projection>
+                </Image>
+                <!--<StackPanel Orientation="Horizontal" Width="AUTO" HorizontalAlignment="Right"  >
+                    <TextBox Text="Backup on OneDrive" FontWeight="Bold" VerticalAlignment="Center" Margin="20,0,20,0"    /> 
+                </StackPanel>-->
+            </StackPanel>
+        </Border>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock x:Name="T_Info" x:Uid="InfoEntraCuentaMS" Text="You must log in with your Microsoft Account."  TextWrapping="Wrap" VerticalAlignment="Top" Height="39" FontSize="12" Margin="0,68,0,0" Padding="0,5,0,0" RenderTransformOrigin="0.5,0.5" >
+                <TextBlock.RenderTransform>
+                    <CompositeTransform TranslateY="-17"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Button x:Name="B_SingInOnedrive" x:Uid="B_SingInOnedrive" Content="Log In" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,110,0,0"  Click="B_SingInOnedrive_Click"  />
+
+            <Button x:Name="B_Backup" x:Uid="B_Backup" Content="Backup" VerticalAlignment="Top" Margin="50,186,0,0" IsEnabled="False" HorizontalAlignment="Left"  Click="B_Backup_Click"/>
+
+            <TextBlock x:Name="T_Progreso" Margin="46,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37"/>
+
+            <Button x:Name="B_Restore" x:Uid="B_Restore" Content="Restore" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="50,318,0,0" IsEnabled="False" Click="B_Restore_Click"/>
+            <TextBlock x:Name="T_ProgRestaura" Margin="46,378,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37" />
+
+            <TextBlock x:Name="tbError" Margin="20,510,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="176"  FontSize="12"/>
+
+        </Grid>
+        <Rectangle Fill="#77000000"
+                x:Name="PleaseWaitCache"
+                Visibility="Collapsed" />
+
+        <ProgressRing x:Name="Progress"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Width="40"
+                    Height="40" />
+
+        <!-- Responsive Visual States -->
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                 <!--Custom State Triggers--> 
+                <VisualState x:Name="WindowsPhone">
+                    <VisualState.StateTriggers>
+                        <CustomTriggers:PlatformStateTrigger Platform="WindowsPhone" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Separar.Width"
+                                Value="0" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>

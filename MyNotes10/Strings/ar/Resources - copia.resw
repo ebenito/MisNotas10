@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="B_Backup.Content" xml:space="preserve">
+    <value>إجراء نسخة احتياطية</value>
+  </data>
+  <data name="B_Restore.Content" xml:space="preserve">
+    <value>استعادة نسخة احتياطية</value>
+  </data>
+  <data name="B_SingInOnedrive.Content" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="DescriptionApp" xml:space="preserve">
+    <value>يمكنك إنشاء العديد من الملاحظات الشخصية كما تريد مع 'ملاحظاتي'. سيتم تخزين هذه في قاعدة البيانات المحلية الخاصة بك، حتى يكون لديك دائماً لهم موجوداً. \n\n يمكنك أيضا جعل تلاحظ أن الفائدة لك ترتكز على الشاشة الرئيسية للهاتف الذكي كبلاط حية التي سوف تظهر لك ملخص لكل ملاحظة. \n\n يمكنك أيضا تحرير وحذف الملاحظات كما كنت في حاجة إليها؛ أيضا تحرير بالإضافة إلى ذلك إذا كانت أي تأمين تلاحظ في البداية سوف تستكمل المعلومات بلاط. \n\n انظر التعليقات من المستخدمين؛ سعر الحد أدنى سيكون لديك أحد تطبيقات مفيدة حقاً. \n\n "مينوتيس الآن" هو التطبيق UWP، وهذا يعني أنه يمكنك تشغيله في الهاتف، والكمبيوتر اللوحي والكمبيوتر، تحت Windows 10. انيوى أنه!</value>
+  </data>
+  <data name="DisplayNameApp" xml:space="preserve">
+    <value>ملاحظاتي</value>
+  </data>
+  <data name="EntrarOnedrive" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>خطأ مصادقة</value>
+  </data>
+  <data name="InfoAutenticado" xml:space="preserve">
+    <value>الآن تتم مصادقتك.</value>
+  </data>
+  <data name="InfoAutenticadoUsuario" xml:space="preserve">
+    <value>، والآن تتم مصادقتك.</value>
+  </data>
+  <data name="InfoEntraCuentaMS.Text" xml:space="preserve">
+    <value>يجب تسجيل الدخول باستخدام حساب Microsoft الخاص بك.</value>
+  </data>
+  <data name="InfoEntrarCuentaMS" xml:space="preserve">
+    <value>، يجب تسجيل الدخول باستخدام حساب Microsoft الخاص بك.</value>
+  </data>
+  <data name="LabelAccionEditar" xml:space="preserve">
+    <value>تحرير هذه المذكرة</value>
+  </data>
+  <data name="LabelAccionNueva" xml:space="preserve">
+    <value>إنشاء ملاحظة جديدة</value>
+  </data>
+  <data name="LogoMy.Text" xml:space="preserve">
+    <value>بي</value>
+  </data>
+  <data name="LogoNotes.Text" xml:space="preserve">
+    <value>وتلاحظ</value>
+  </data>
+  <data name="MenuBackup" xml:space="preserve">
+    <value>النسخ الاحتياطي</value>
+  </data>
+  <data name="MenuEditar" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="MenuNueva" xml:space="preserve">
+    <value>إضافة ملاحظة جديدة</value>
+  </data>
+  <data name="MenuTodasNotas" xml:space="preserve">
+    <value>إظهار كافة الملاحظات</value>
+  </data>
+  <data name="MenuValorar" xml:space="preserve">
+    <value>معدل هذا التطبيق</value>
+  </data>
+  <data name="MsgErrorGeneral" xml:space="preserve">
+    <value>لقد حدث خطأ:</value>
+  </data>
+  <data name="MsgNoNotaEditar" xml:space="preserve">
+    <value>لم تقم بتحديد أية ملاحظة لتحرير؛ فإنه يفتح في وضع إنشاء ملاحظة جديدة.</value>
+  </data>
+  <data name="MsgNotaActualizada" xml:space="preserve">
+    <value>ملاحظة تحديث بنجاح.</value>
+  </data>
+  <data name="MsgNotaBorrada" xml:space="preserve">
+    <value>ملاحظة حذف بنجاح.</value>
+  </data>
+  <data name="MsgNotaBorradaError" xml:space="preserve">
+    <value>حدث خطأ أثناء حذف الملاحظة:</value>
+  </data>
+  <data name="MsgNotaCreada" xml:space="preserve">
+    <value>ملاحظة تم إنشاؤها بنجاح.</value>
+  </data>
+  <data name="MsgNotaCreadaError" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ الملاحظة:</value>
+  </data>
+  <data name="MsgSalidaOneDrive" xml:space="preserve">
+    <value>الآن يمكنك هي خرجت من الخدمة أندريف</value>
+  </data>
+  <data name="MsgSelectOrigenRestauracion" xml:space="preserve">
+    <value>حدد مصدر البيانات لاستعادتها:</value>
+  </data>
+  <data name="MsgSelectOrigenRestauracionCap" xml:space="preserve">
+    <value>مصدر للنسخ الاحتياطي</value>
+  </data>
+  <data name="NameApp" xml:space="preserve">
+    <value>ويلاحظ بلدي</value>
+  </data>
+  <data name="ProblemaAutenticacion" xml:space="preserve">
+    <value>المشكلة عند مصادقة!</value>
+  </data>
+  <data name="SalirOneDrive" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="SearchTextBox.PlaceholderText" xml:space="preserve">
+    <value>البحث عن</value>
+  </data>
+  <data name="ImgTileMediano" xml:space="preserve">
+    <value>NotaTile-en.png</value>
+  </data>
+  <data name="MsgBackupFin" xml:space="preserve">
+    <value>اكتملت بنجاح عملية النسخ الاحتياطي</value>
+  </data>
+  <data name="MsgCantNotasEncontradas" xml:space="preserve">
+    <value>الملاحظات التي تأسست في النسخ الاحتياطي أونيدريفي</value>
+  </data>
+  <data name="MsgContenidoNoEncontrado" xml:space="preserve">
+    <value>لم يتم العثور على المحتوى:</value>
+  </data>
+  <data name="MsgDescargando" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="MsgDescargando2Parte" xml:space="preserve">
+    <value>وتلاحظ، الرجاء الانتظار...</value>
+  </data>
+  <data name="MsgFinalizado" xml:space="preserve">
+    <value>فينيشيد!!!</value>
+  </data>
+  <data name="MsgNoEncontrado" xml:space="preserve">
+    <value>لم يتم العثور على:</value>
+  </data>
+  <data name="MsgRestauracionFin" xml:space="preserve">
+    <value>استعادة النسخ الاحتياطي بنجاح</value>
+  </data>
+  <data name="MsgRestaurando" xml:space="preserve">
+    <value>استعادة</value>
+  </data>
+  <data name="MsgAlertaBackup" xml:space="preserve">
+    <value>عند إجراء نسخة احتياطية جديدة سيتم محو السابق؛ هل أنت متأكد من أنك تريد المتابعة؟.</value>
+  </data>
+  <data name="txtNo" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="txtSi" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>ar</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>GENERAL</comment>
+  </data>
+</root>

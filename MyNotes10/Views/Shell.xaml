@@ -1,0 +1,271 @@
+﻿<base:PageBase 
+    x:Class="MyNotes10.Views.Shell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"    
+    xmlns:CustomTriggers="using:MyNotes10.CustomTriggers"
+    xmlns:vm="using:MyNotes10.ViewModels" 
+    xmlns:base="using:MyNotes10.Views.Base"
+    xmlns:local="using:MyNotes10.Views" >
+    <!--DataContext="{Binding ShellPageViewModel, Source={StaticResource Locator}}"-->
+
+    <base:PageBase.Resources>
+        <SolidColorBrush x:Key="JustOneShadeOfGray"
+                         Color="CadetBlue" />
+    </base:PageBase.Resources>
+
+    <base:PageBase.DataContext >
+        <vm:ShellViewModel />
+    </base:PageBase.DataContext>
+
+    <Grid>
+        <!-- SplitView -->
+        <SplitView x:Name="MySplitView"
+                   IsPaneOpen="False"
+                   CompactPaneLength="40"
+                   OpenPaneLength="180"
+                   PaneBackground="{StaticResource JustOneShadeOfGray}" 
+                   DisplayMode="CompactInline">
+            <SplitView.Pane>
+                <Grid x:Name="SplitViewPane"
+                      VerticalAlignment="Stretch"
+                      HorizontalAlignment="Stretch"
+                      ManipulationMode="TranslateX"
+                      ManipulationCompleted="SplitViewPane_ManipulationCompleted"
+                      Background="{StaticResource JustOneShadeOfGray}">
+                    <ListView ItemsSource="{Binding Menu}"
+                              SelectionChanged="Menu_SelectionChanged"
+                              Margin="0,48,0,0"
+                              VerticalAlignment="Top">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <FontIcon x:Name="Glyph"
+                                              Glyph="{Binding Glyph}"
+                                              VerticalAlignment="Center"
+                                              HorizontalAlignment="Center"
+                                              Foreground="White"
+                                              ToolTipService.ToolTip="{Binding Text}" />
+                                    <TextBlock Text="{Binding Text}"
+                                               Margin="8 0 0 0"
+                                               Foreground="White" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <!-- Logo -->
+                    <Viewbox x:Name="Logo"
+                             StretchDirection="DownOnly"
+                             Margin="15,10,10,10"
+                             HorizontalAlignment="Left"
+                             VerticalAlignment="Bottom"
+                             Width="142">
+                        <Canvas Height="80"
+                                Width="200"
+                                Background="Transparent">
+                            <!--<Canvas>
+                                <Viewbox Height="70"
+                                         Canvas.Left="5"
+                                         Canvas.Top="5">
+                                    <Canvas Width="230"
+                                            Height="250"
+                                            Background="Transparent">
+                                        <Path Width="250"
+                                              Height="230"
+                                              Stretch="Fill"
+                                              Fill="White"
+                                              Data="M17.300049,16.299992L18.800049,18.000004C18.800049,18.000004 17.5,22.200003 13,20.000006 13,20.000006 14.300049,20.000006 14.800049,18.200001 14.800049,18.099995 15.400024,16.500004 17.300049,16.299992z M20.400024,12.099994L22.900024,14.599995 19.200012,17.099995 17.800049,15.700001C17.900024,15.799992,19.600037,12.899997,20.400024,12.099994z M31.300049,3.0999913C31.700012,3.0999915 32,3.3999948 32,3.7999887 32,4.0000009 32,4.0999918 31.900024,4.1999979 31.800049,4.6999979 30.600037,6.3999953 30.600037,6.3999953 28.400024,10.099994 23.600037,14.099995 23.600037,14.099995L20.900024,11.399997C26,5.5999923 30.800049,3.1999976 30.800049,3.1999974 30.900024,3.0999915 31.100037,3.0999915 31.300049,3.0999913z M5.1000366,0.19999695C5.8000488,0.19999701 6.4000244,0.79998802 6.4000244,1.5000005 6.4000244,2.1999974 5.8000488,2.7999885 5.1000366,2.7999883 4.9000244,2.7999885 4.7000122,2.6999976 4.5,2.6999974L4.5,2.7999883 4.5,25.500006 23.800049,25.500006 22.900024,26.4 3.4000244,26.4 3.4000244,21.9 0,21.9 1.9000244,3.8999948C1.9000244,3.8999948,2.7000122,0.19999701,5.1000366,0.19999695z M7.3000488,0L9.7000122,0 25.400024,0C26.400024,1.5927071E-08 27.300049,0.79998802 27.300049,1.8999944 27.300049,2.8999946 26.5,3.7999887 25.400024,3.7999887L25.300049,3.7999887 25.300049,4.0000009 25.300049,5.3999953 24,6.5000014 24,4.0000009 7,4.0000009 7,22.799993 24,22.799993 24,15.500004 24.100037,15.399998C24.400024,15.200001,24.700012,14.899998,25.200012,14.399998L25.200012,24.000006 5.9000244,24.000006 5.9000244,4.0000009 5.9000244,3.6999979C8.8000488,2.7999885,7.3000488,0.099990881,7.3000488,0z" />
+                                    </Canvas>
+                                </Viewbox>
+                            </Canvas>-->
+                            <Canvas  >
+                                <Canvas.RenderTransform>
+                                    <CompositeTransform ScaleX="1.7" ScaleY="1.7" TranslateY="-20"/>
+                                </Canvas.RenderTransform>
+                                <Path Data="F1 M 2.08,9.6 L 34.08,9.6 34.08,60.8 2.08,60.8 z"  Fill="#ff373737" />
+                                <Path Data="F1 M 34.08,9.6 L 63.52,7.04 63.52,58.24 34.08,60.8 z"  Fill="#fffefde6" />
+                                <Path Data="F1 M 34.08,9.6 L 4.64,7.04 4.64,58.24 34.08,60.8 z"  Fill="#ffdbdac6" />
+                                <Path Data="F1 M 34.08,9.6 L 66.4,9.6 66.4,60.8 34.08,60.8 z" >
+                                    <Path.Fill>
+                                        <ImageBrush ImageSource="ms-appx:///Assets/Imagenes/Icono.png"   />
+                                    </Path.Fill>
+                                </Path>
+                            </Canvas>
+                            <Grid Width="200"
+                                  Height="80">
+                                <TextBlock Foreground="Coral"
+                                           FontSize="24"
+                                           FontWeight="SemiBold"
+                                           VerticalAlignment="Top"
+                                           Padding="0"
+                                           Margin="0,36,8,0" HorizontalAlignment="Right" Width="120">
+                                    <Run x:Uid="LogoMy" Text="My" />
+                                    <Run x:Uid="LogoNotes"
+                                         Text=" Notes"
+                                         Foreground="White"
+                                         FontWeight="Light" />
+                                </TextBlock>
+                            </Grid>
+                            <TextBlock x:Name="T_Version" Margin="135,65,8,0" Text="for Win10" />
+                        </Canvas>
+                    </Viewbox>
+                </Grid>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <!-- Navigation Frame -->
+                    <Frame x:Name="SplitViewFrame" Grid.Row="1">
+                        <Frame.ContentTransitions>
+                            <TransitionCollection>
+                                <NavigationThemeTransition>
+                                    <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                        <EntranceNavigationTransitionInfo />
+                                    </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                </NavigationThemeTransition>
+                            </TransitionCollection>
+                        </Frame.ContentTransitions>
+                    </Frame>
+
+                    <!-- SplitViewOpener -->
+                    <!--<Grid ManipulationMode="TranslateX"
+                          ManipulationCompleted="SplitViewOpener_ManipulationCompleted"
+                          Width="180"
+                          Background="Transparent"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Stretch">
+                    </Grid>-->
+
+                    <!-- Page Width Indicator -->
+                    <TextBlock x:Name="WidthIndicator"
+                               Text="0px"
+                               Foreground="{StaticResource JustOneShadeOfGray}"
+                               VerticalAlignment="Bottom"
+                               HorizontalAlignment="Right"
+                               Margin="8"
+                               Grid.Row="0" 
+                               Visibility="Collapsed" />
+                    <TextBlock x:Name="VisualStateShowed"  
+                               Text="VisualState"
+                               Foreground="{StaticResource JustOneShadeOfGray}"
+                               VerticalAlignment="Bottom"
+                               HorizontalAlignment="Right"
+                               Margin="8,22"
+                               Grid.Row="0"
+                               Visibility="Collapsed" />
+
+                </Grid>
+            </SplitView.Content>
+        </SplitView>
+
+        <!-- Hamburger Button -->
+        <Button x:Name="HamburgerButton"
+                FontFamily="Segoe MDL2 Assets"
+                Content="&#xE700;"
+                Width="40"
+                Height="40"
+                Background="Transparent"
+                Foreground="OrangeRed"
+                VerticalAlignment="Top"
+                BorderThickness="0"
+                Click="HamburgerButton_Click"  />
+
+        <!-- Responsive Visual States -->
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+
+                <!-- VisualState to be triggered when window width is >=900 effective pixels -->
+                <VisualState x:Name="Wide">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="900" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MySplitView.DisplayMode"
+                                Value="Inline" />
+                        <Setter Target="MySplitView.IsPaneOpen"
+                                Value="True" />
+                        <Setter Target="HamburgerButton.Visibility"
+                                Value="Visible" />
+                        <Setter Target="Logo.Visibility"
+                                Value="Visible" />
+                        <Setter Target="VisualStateShowed.Text" Value="Wide" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="Narrow">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="500" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MySplitView.DisplayMode"
+                                Value="CompactOverlay" />
+                        <Setter Target="MySplitView.IsPaneOpen"
+                                Value="True" />
+                        <Setter Target="HamburgerButton.Visibility"
+                                Value="Visible" />
+                        <Setter Target="Logo.Visibility"
+                                Value="Collapsed" />
+                        <Setter Target="VisualStateShowed.Text" Value="Narrow" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="Peque">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="300" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MySplitView.DisplayMode"
+                                Value="CompactOverlay" />
+                        <Setter Target="MySplitView.IsPaneOpen"
+                                Value="False" />
+                        <Setter Target="HamburgerButton.Visibility"
+                                Value="Visible" />
+                        <Setter Target="Logo.Visibility"
+                                Value="Collapsed" />
+                        <Setter Target="VisualStateShowed.Text" Value="Peque" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <!-- Custom State Triggers -->
+                <VisualState x:Name="WindowsPhone">
+                    <VisualState.StateTriggers>
+                        <CustomTriggers:PlatformStateTrigger Platform="WindowsPhone" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MySplitView.DisplayMode"
+                                Value="CompactOverlay" />
+                        <Setter Target="MySplitView.IsPaneOpen"
+                                Value="False" />
+                        <Setter Target="HamburgerButton.Visibility"
+                                Value="Visible" />
+                        <Setter Target="Logo.Visibility"
+                                Value="Collapsed" />
+                        <Setter Target="VisualStateShowed.Text" Value="WindowsPhone" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <!--<VisualState x:Name="landscape">
+                    <VisualState.StateTriggers>
+                        <CustomTriggers:OrientationStateTrigger Orientacion="Landscape" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="VisualStateShowed.Text" Value="Landscape" />
+                        <Setter Target="Logo.Visibility" Value="Collapsed" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="portrait">
+                    <VisualState.StateTriggers>
+                        <CustomTriggers:OrientationStateTrigger Orientacion="Portrait" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="VisualStateShowed.Text" Value="Portrait" />
+                        <Setter Target="Logo.Visibility" Value="Visible" />
+                    </VisualState.Setters>
+                </VisualState>-->
+
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</base:PageBase>

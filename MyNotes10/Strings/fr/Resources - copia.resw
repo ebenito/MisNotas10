@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="B_Backup.Content" xml:space="preserve">
+    <value>Faire une sauvegarde</value>
+  </data>
+  <data name="B_Restore.Content" xml:space="preserve">
+    <value>Restaurer une sauvegarde</value>
+  </data>
+  <data name="B_SingInOnedrive.Content" xml:space="preserve">
+    <value>Ouvrir une session</value>
+  </data>
+  <data name="DescriptionApp" xml:space="preserve">
+    <value>Avec « Mes notes », vous pouvez créer des notes personnelles autant que vous le souhaitez. Ceux-ci seront stockés dans votre base de données locale, vous avez toujours accessibles. \n\n Vous pouvez également prendre des notes que vous êtes ancré sur l’écran d’accueil de votre Smartphone comme une tuile direct qui vous montrera un résumé de chaque note de l’intérêt. \n\n Vous pouvez également modifier et supprimer les notes que vous en aurez besoin ; En outre si aucune garantie notes au début est également édité mettra à jour les informations de la tuile. \n\n voir les commentaires de nos utilisateurs ; un prix minimum, vous aurez une application vraiment utile. \n\n maintenant MyNotes c’est une appli UWP, c’est à dire que vous pouvez l’exécuter dans votre téléphone, la tablette et le PC, sous Windows 10. ENYOY il !</value>
+  </data>
+  <data name="DisplayNameApp" xml:space="preserve">
+    <value>Mes Notes</value>
+  </data>
+  <data name="EntrarOnedrive" xml:space="preserve">
+    <value>Ouvrir une session</value>
+  </data>
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>Erreur d’authentification</value>
+  </data>
+  <data name="InfoAutenticado" xml:space="preserve">
+    <value>Maintenant vous êtes authentifié.</value>
+  </data>
+  <data name="InfoAutenticadoUsuario" xml:space="preserve">
+    <value>, maintenant vous êtes authentifié.</value>
+  </data>
+  <data name="InfoEntraCuentaMS.Text" xml:space="preserve">
+    <value>Vous devez ouvrir une session avec votre Microsoft Account.</value>
+  </data>
+  <data name="InfoEntrarCuentaMS" xml:space="preserve">
+    <value>, vous devez vous connecter avec votre Microsoft Account.</value>
+  </data>
+  <data name="LabelAccionEditar" xml:space="preserve">
+    <value>Modifier cette note</value>
+  </data>
+  <data name="LabelAccionNueva" xml:space="preserve">
+    <value>Créer une nouvelle note</value>
+  </data>
+  <data name="LogoMy.Text" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="LogoNotes.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="MenuBackup" xml:space="preserve">
+    <value>Sauvegarde</value>
+  </data>
+  <data name="MenuEditar" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="MenuNueva" xml:space="preserve">
+    <value>Nouvelle note</value>
+  </data>
+  <data name="MenuTodasNotas" xml:space="preserve">
+    <value>Afficher toutes</value>
+  </data>
+  <data name="MenuValorar" xml:space="preserve">
+    <value>Noter ce soft</value>
+  </data>
+  <data name="MsgErrorGeneral" xml:space="preserve">
+    <value>Une erreur s’est produite :</value>
+  </data>
+  <data name="MsgNoNotaEditar" xml:space="preserve">
+    <value>Vous n’avez sélectionné aucune note à modifier ; Il s’ouvre dans un nouveau mode de création de note.</value>
+  </data>
+  <data name="MsgNotaActualizada" xml:space="preserve">
+    <value>Note mise à jour avec succès.</value>
+  </data>
+  <data name="MsgNotaBorrada" xml:space="preserve">
+    <value>Note supprimé avec succès.</value>
+  </data>
+  <data name="MsgNotaBorradaError" xml:space="preserve">
+    <value>Une erreur est survenue lors de la suppression de la note :</value>
+  </data>
+  <data name="MsgNotaCreada" xml:space="preserve">
+    <value>Note créée avec succès.</value>
+  </data>
+  <data name="MsgNotaCreadaError" xml:space="preserve">
+    <value>Une erreur s’est produite lors de l’enregistrement de la note :</value>
+  </data>
+  <data name="MsgSalidaOneDrive" xml:space="preserve">
+    <value>Maintenant vous êtes quitté l’OneDrive service</value>
+  </data>
+  <data name="MsgSelectOrigenRestauracion" xml:space="preserve">
+    <value>Sélectionnez la source de données à restaurer :</value>
+  </data>
+  <data name="MsgSelectOrigenRestauracionCap" xml:space="preserve">
+    <value>Source de votre sauvegarde</value>
+  </data>
+  <data name="NameApp" xml:space="preserve">
+    <value>Mes Notes</value>
+  </data>
+  <data name="ProblemaAutenticacion" xml:space="preserve">
+    <value>Problème lors de l’authentification !</value>
+  </data>
+  <data name="SalirOneDrive" xml:space="preserve">
+    <value>Fermer la session</value>
+  </data>
+  <data name="SearchTextBox.PlaceholderText" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="ImgTileMediano" xml:space="preserve">
+    <value>NotaTile-en.png</value>
+  </data>
+  <data name="MsgBackupFin" xml:space="preserve">
+    <value>Sauvegarde terminée avec succès</value>
+  </data>
+  <data name="MsgCantNotasEncontradas" xml:space="preserve">
+    <value>Notes fondées dans votre sauvegarde de OneDrive</value>
+  </data>
+  <data name="MsgContenidoNoEncontrado" xml:space="preserve">
+    <value>Contenu non trouvé :</value>
+  </data>
+  <data name="MsgDescargando" xml:space="preserve">
+    <value>Téléchargement</value>
+  </data>
+  <data name="MsgDescargando2Parte" xml:space="preserve">
+    <value>Notes, veuillez patienter...</value>
+  </data>
+  <data name="MsgFinalizado" xml:space="preserve">
+    <value>Finnished !!!</value>
+  </data>
+  <data name="MsgNoEncontrado" xml:space="preserve">
+    <value>Introuvable :</value>
+  </data>
+  <data name="MsgRestauracionFin" xml:space="preserve">
+    <value>Restauration sauvegarde terminée avec succès</value>
+  </data>
+  <data name="MsgRestaurando" xml:space="preserve">
+    <value>Restauration</value>
+  </data>
+  <data name="MsgAlertaBackup" xml:space="preserve">
+    <value>Quand faire une nouvelle sauvegarde effacera la précédente ; Êtes-vous sûr de que vouloir continuer ?.</value>
+  </data>
+  <data name="txtNo" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="txtSi" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>fr</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="B_Arabe.Content" xml:space="preserve">
+    <value>Arabe</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Espanol.Content" xml:space="preserve">
+    <value>Espagnol</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Frances.Content" xml:space="preserve">
+    <value>Français</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ingles.Content" xml:space="preserve">
+    <value>Anglais</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Aleman.Content" xml:space="preserve">
+    <value>Allemand</value>
+    <comment>Seldioma</comment>
+  </data>
+</root>

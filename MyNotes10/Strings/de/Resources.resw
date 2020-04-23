@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="B_Backup.Content" xml:space="preserve">
+    <value>Erstellen Sie eine Sicherungskopie</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="B_Restore.Content" xml:space="preserve">
+    <value>Wiederherstellen einer Sicherung</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="B_SingInOnedrive.Content" xml:space="preserve">
+    <value>Anmelden</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="DescriptionApp" xml:space="preserve">
+    <value>Mit "Meine Notizen" erstellen Sie beliebig viele persönliche Notizen, wie Sie wollen. Diese werden in der lokalen Datenbank gespeichert, so dass Sie immer zugänglich. \n\n stellt fest, dass das Interesse können Sie, was, das Sie auf dem home-Bildschirm Ihres Smartphones als live Tile verankert sind, die Ihnen eine Zusammenfassung der einzelnen Noten zeigen wird. \n\n können Sie auch bearbeiten und löschen die Noten, wie Sie es brauchen; Darüber hinaus Wenn irgendwelche Hinweise am Anfang gesichert auch bearbeitet die Kachelinformationen aktualisiert werden. \n\n siehe Kommentare von unseren Nutzern; ein Mindestpreis müssen Sie eine wirklich nützliche Anwendung. \n\n jetzt MyNotes eine UWP-App ist, ist das Mittel, die Sie in Ihrem Handy, Tablet und PC unter Windows 10 ausgeführt werden kann. Koennen es!</value>
+    <comment>Descripcion de la App</comment>
+  </data>
+  <data name="DisplayNameApp" xml:space="preserve">
+    <value>Meine Notizen</value>
+    <comment>Nombre a mostrar en el menú de Windows</comment>
+  </data>
+  <data name="EntrarOnedrive" xml:space="preserve">
+    <value>Anmelden</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>Authentifizierungsfehler</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoAutenticado" xml:space="preserve">
+    <value>Jetzt sind Sie authentifiziert.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoAutenticadoUsuario" xml:space="preserve">
+    <value>, jetzt Sie authentifiziert sind.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoEntraCuentaMS.Text" xml:space="preserve">
+    <value>Sie müssen mit Ihrem Microsoft-Account einloggen.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoEntrarCuentaMS" xml:space="preserve">
+    <value>, Sie müssen Ihr Microsoft-Account einloggen.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="LabelAccionEditar" xml:space="preserve">
+    <value>Diese Notiz bearbeiten</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="LabelAccionNueva" xml:space="preserve">
+    <value>Neue Notiz erstellen</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="LogoMy.Text" xml:space="preserve">
+    <value>Meine</value>
+  </data>
+  <data name="LogoNotes.Text" xml:space="preserve">
+    <value>Notizen</value>
+  </data>
+  <data name="MenuBackup" xml:space="preserve">
+    <value>Sicherung</value>
+  </data>
+  <data name="MenuEditar" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="MenuNueva" xml:space="preserve">
+    <value>Fügen Sie eine neue Notiz</value>
+  </data>
+  <data name="MenuTodasNotas" xml:space="preserve">
+    <value>Alle Notizen anzeigen</value>
+  </data>
+  <data name="MenuValorar" xml:space="preserve">
+    <value>Bewerten Sie diese App</value>
+  </data>
+  <data name="MsgErrorGeneral" xml:space="preserve">
+    <value>Ein Fehler ist aufgetreten:</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="MsgNoNotaEditar" xml:space="preserve">
+    <value>Sie haben keine nennenswerte bearbeiten ausgewählt; Es öffnet sich in einem neuen Hinweis erstellen-Modus.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaActualizada" xml:space="preserve">
+    <value>Hinweis wurde erfolgreich aktualisiert.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaBorrada" xml:space="preserve">
+    <value>Hinweis wurde erfolgreich gelöscht.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaBorradaError" xml:space="preserve">
+    <value>Fehler beim Löschen der Hinweis:</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaCreada" xml:space="preserve">
+    <value>Hinweis wurde erfolgreich erstellt.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaCreadaError" xml:space="preserve">
+    <value>Fehler beim Speichern der Hinweis:</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgSalidaOneDrive" xml:space="preserve">
+    <value>Jetzt sind Sie aus OneDrive-Dienst beendet.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgSelectOrigenRestauracion" xml:space="preserve">
+    <value>Wählen Sie die Quelle der Daten wiederhergestellt werden:</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgSelectOrigenRestauracionCap" xml:space="preserve">
+    <value>Als Quelle für Ihre Datensicherung</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="NameApp" xml:space="preserve">
+    <value>Meine Notizen</value>
+    <comment>Titulo de la App</comment>
+  </data>
+  <data name="ProblemaAutenticacion" xml:space="preserve">
+    <value>Problem bei der Authentifizierung!</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="SalirOneDrive" xml:space="preserve">
+    <value>Abmelden</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="SearchTextBox.PlaceholderText" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="ImgTileMediano" xml:space="preserve">
+    <value>NotaTile-en.png</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgBackupFin" xml:space="preserve">
+    <value>Backup wurde erfolgreich abgeschlossen</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgCantNotasEncontradas" xml:space="preserve">
+    <value>Notizen in Ihrem OneDrive Sicherung gegründet</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgContenidoNoEncontrado" xml:space="preserve">
+    <value>Inhalt nicht gefunden:</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgDescargando" xml:space="preserve">
+    <value>Herunterladen ...</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgDescargando2Parte" xml:space="preserve">
+    <value>Notizen, warten bitte...</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgFinalizado" xml:space="preserve">
+    <value>Abgeschlossene!!!</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgNoEncontrado" xml:space="preserve">
+    <value>Nicht gefunden:</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgRestauracionFin" xml:space="preserve">
+    <value>Backup wiederherstellen erfolgreich abgeschlossen</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgRestaurando" xml:space="preserve">
+    <value>Wird wiederhergestellt</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgAlertaBackup" xml:space="preserve">
+    <value>Wenn eine neue Sicherungskopie der vorherigen gelöscht werden; Sind Sie sicher, dass Sie fortfahren möchten?.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="txtNo" xml:space="preserve">
+    <value>Nein</value>
+    <comment>General</comment>
+  </data>
+  <data name="txtSi" xml:space="preserve">
+    <value>Ja</value>
+    <comment>General</comment>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>de</value>
+    <comment>GENERAL: Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>GENERAL: Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="B_Aleman.Content" xml:space="preserve">
+    <value>Deutsch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Arabe.Content" xml:space="preserve">
+    <value>Arabisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Espanol.Content" xml:space="preserve">
+    <value>Spanisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Frances.Content" xml:space="preserve">
+    <value>Französisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ingles.Content" xml:space="preserve">
+    <value>Englisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Catalan.Content" xml:space="preserve">
+    <value>Katalanisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Fines.Content" xml:space="preserve">
+    <value>Finnisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Italiano.Content" xml:space="preserve">
+    <value>Italienisch</value>
+    <comment>SelIdioma</comment>
+  </data>
+  <data name="B_Ucraniano.Content" xml:space="preserve">
+    <value>Ukrainisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="MsgAlertBorraNota" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie die ausgewählte Notiz löschen möchten?</value>
+    <comment>MainPageVM</comment>
+  </data>
+  <data name="MsgNoNotaEditarNoAbre" xml:space="preserve">
+    <value>Sie haben keine nennenswerte ausgewählt.</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_BorrarNota" xml:space="preserve">
+    <value>Notiz löschen</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_EditarNota" xml:space="preserve">
+    <value>Notiz bearbeiten</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_Chino.Content" xml:space="preserve">
+    <value>Chinesisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Hindi.Content" xml:space="preserve">
+    <value>Hindi</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Japones.Content" xml:space="preserve">
+    <value>Japanisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Portugues.Content" xml:space="preserve">
+    <value>Portugiesisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ruso.Content" xml:space="preserve">
+    <value>Russisch</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="MsgTrial" xml:space="preserve">
+    <value>Mit der Testversion können Sie nur drei Noten erstellen. Die Vollversion ohne Einschränkungen kaufen möchten?
+</value>
+  </data>
+  <data name="TituloTrial" xml:space="preserve">
+    <value>Trial-Version</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Datenschutz</value>
+    <comment>Menu</comment>
+  </data>
+</root>

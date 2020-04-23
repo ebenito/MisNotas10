@@ -1,0 +1,55 @@
+﻿<base:PageBase
+    x:Class="MyNotes10.Views.Seldioma"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyNotes10.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"      
+    mc:Ignorable="d"
+    xmlns:base="using:MyNotes10.Views.Base" >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <!--<controls:AdaptiveGridView Name="adaptGridView"
+                                   OneRowModeEnabled="False"
+                                   ItemHeight="100"
+                                   DesiredWidth="150"
+                                   SelectionMode="Single"
+                                   IsItemClickEnabled="True">
+            <Button x:Uid="B_Ingles" Click="B_Ingles_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Espanol" Click="B_Español_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Frances" Click="B_Frances_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Italiano" Click="B_Italiano_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Aleman" Click="B_Aleman_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Portugues" Click="B_Portugues_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Arabe" Click="B_Arabe_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Catalan" Click="B_Catalan_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Fines" Click="B_Fines_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Ucraniano" Click="B_Ucraniano_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Chino" Click="B_Chino_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Hindi" Click="B_Hindi_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Japones" Click="B_Japones_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            <Button x:Uid="B_Ruso" Click="B_Ruso_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+        </controls:AdaptiveGridView>-->
+        
+        <ScrollViewer x:Name ="MyScrollView" HorizontalScrollBarVisibility="Hidden">
+            <StackPanel ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <Button x:Uid="B_Ingles" Click="B_Ingles_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Espanol" Click="B_Español_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Frances" Click="B_Frances_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Italiano" Click="B_Italiano_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Aleman" Click="B_Aleman_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Portugues" Click="B_Portugues_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Arabe" Click="B_Arabe_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Catalan" Click="B_Catalan_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Fines" Click="B_Fines_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Ucraniano" Click="B_Ucraniano_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Chino" Click="B_Chino_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Hindi" Click="B_Hindi_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Japones" Click="B_Japones_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+                <Button x:Uid="B_Ruso" Click="B_Ruso_Click" HorizontalAlignment="Center" Padding="20" Margin="10" MinWidth="150" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</base:PageBase >

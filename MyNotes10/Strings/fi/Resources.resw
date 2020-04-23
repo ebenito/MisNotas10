@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="B_Backup.Content" xml:space="preserve">
+    <value>Tee varmuuskopio</value>
+  </data>
+  <data name="B_Restore.Content" xml:space="preserve">
+    <value>Varmuuskopion palauttaminen</value>
+  </data>
+  <data name="B_SingInOnedrive.Content" xml:space="preserve">
+    <value>Kirjaudu sisään</value>
+  </data>
+  <data name="DescriptionApp" xml:space="preserve">
+    <value>Minun huomauttaa voit luoda niin monta omat merkinnät kuin haluat. Nämä tallennetaan paikalliseen tietokantaan, joten niitä voi käyttää. \n\n voit myös tehdä muistiinpanoja että korko on ankkuroitu älypuhelimen aloitusnäytössä kuin live laatta, joka näyttää yhteenvedon nuotin. \n\n voit myös muokata ja poistaa merkinnät, kuten sinun. Lisäksi jos jokin suojattu toteaa alussa myös muokannut laatta tiedot päivitetään. \n\n Katso kommentteja käyttäjiä; vähimmäishinta, sinulla on todella hyödyllinen sovellus. nyt MyNotes on UWP App \n\n että ' alhainen että te kanisteri ajelu se Puhelin, Tablet PC-ja PC Windows 10. Enyoy se!</value>
+  </data>
+  <data name="DisplayNameApp" xml:space="preserve">
+    <value>Omat muistilaput</value>
+  </data>
+  <data name="EntrarOnedrive" xml:space="preserve">
+    <value>Kirjaudu sisään</value>
+  </data>
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>Tarkistusvirhe</value>
+  </data>
+  <data name="InfoAutenticado" xml:space="preserve">
+    <value>Nyt olet todennettu.</value>
+  </data>
+  <data name="InfoAutenticadoUsuario" xml:space="preserve">
+    <value>, nyt on todennettu.</value>
+  </data>
+  <data name="InfoEntraCuentaMS.Text" xml:space="preserve">
+    <value>Sinun täytyy kirjautua sisään Microsoft-Account.</value>
+  </data>
+  <data name="InfoEntrarCuentaMS" xml:space="preserve">
+    <value>, sinun täytyy kirjautua sisään Microsoft-Account.</value>
+  </data>
+  <data name="LabelAccionEditar" xml:space="preserve">
+    <value>Muokkaa aihetta.</value>
+  </data>
+  <data name="LabelAccionNueva" xml:space="preserve">
+    <value>Luo uusi muistilappu</value>
+  </data>
+  <data name="LogoMy.Text" xml:space="preserve">
+    <value>Minun</value>
+  </data>
+  <data name="LogoNotes.Text" xml:space="preserve">
+    <value>Muistiinpanot</value>
+  </data>
+  <data name="MenuBackup" xml:space="preserve">
+    <value>Varmuuskopiointi</value>
+  </data>
+  <data name="MenuEditar" xml:space="preserve">
+    <value>Muokkaa</value>
+  </data>
+  <data name="MenuNueva" xml:space="preserve">
+    <value>Lisää uusi Huomautus</value>
+  </data>
+  <data name="MenuTodasNotas" xml:space="preserve">
+    <value>Show all Huomautus</value>
+  </data>
+  <data name="MenuValorar" xml:space="preserve">
+    <value>Luokitus tämä App</value>
+  </data>
+  <data name="MsgErrorGeneral" xml:space="preserve">
+    <value>Virhe:</value>
+  </data>
+  <data name="MsgNoNotaEditar" xml:space="preserve">
+    <value>Et ole valinnut mitään huomautus Muokkaa; Se avautuu uusi Huomautus luontitila.</value>
+  </data>
+  <data name="MsgNotaActualizada" xml:space="preserve">
+    <value>Huomautus Päivitys onnistui.</value>
+  </data>
+  <data name="MsgNotaBorrada" xml:space="preserve">
+    <value>Huomautus poistettu.</value>
+  </data>
+  <data name="MsgNotaBorradaError" xml:space="preserve">
+    <value>Virhe poistettaessa Huomautus:</value>
+  </data>
+  <data name="MsgNotaCreada" xml:space="preserve">
+    <value>Huomautus luotu.</value>
+  </data>
+  <data name="MsgNotaCreadaError" xml:space="preserve">
+    <value>Virhe tallennettaessa Huomautus:</value>
+  </data>
+  <data name="MsgSalidaOneDrive" xml:space="preserve">
+    <value>Nyt olet lähtenyt OneDrive-palvelusta</value>
+  </data>
+  <data name="MsgSelectOrigenRestauracion" xml:space="preserve">
+    <value>Valitse palautettava tietojen lähde:</value>
+  </data>
+  <data name="MsgSelectOrigenRestauracionCap" xml:space="preserve">
+    <value>Lähde varmuuskopioinnin</value>
+  </data>
+  <data name="NameApp" xml:space="preserve">
+    <value>Omat muistiinpanot</value>
+  </data>
+  <data name="ProblemaAutenticacion" xml:space="preserve">
+    <value>Ongelma, kun käyttäjien henkilöllisyys todennetaan!</value>
+  </data>
+  <data name="SalirOneDrive" xml:space="preserve">
+    <value>Kirjaudu ulos</value>
+  </data>
+  <data name="SearchTextBox.PlaceholderText" xml:space="preserve">
+    <value>Etsi</value>
+  </data>
+  <data name="ImgTileMediano" xml:space="preserve">
+    <value>NotaTile-en.png</value>
+  </data>
+  <data name="MsgBackupFin" xml:space="preserve">
+    <value>Varmuuskopiointi onnistui</value>
+  </data>
+  <data name="MsgCantNotasEncontradas" xml:space="preserve">
+    <value>toteaa vuonna OneDrive varmuuskopiointi</value>
+  </data>
+  <data name="MsgContenidoNoEncontrado" xml:space="preserve">
+    <value>Sisältö ei löydy:</value>
+  </data>
+  <data name="MsgDescargando" xml:space="preserve">
+    <value>Lataaminen</value>
+  </data>
+  <data name="MsgDescargando2Parte" xml:space="preserve">
+    <value>toteaa, odota...</value>
+  </data>
+  <data name="MsgFinalizado" xml:space="preserve">
+    <value>Finnished!</value>
+  </data>
+  <data name="MsgNoEncontrado" xml:space="preserve">
+    <value>Ei löydy:</value>
+  </data>
+  <data name="MsgRestauracionFin" xml:space="preserve">
+    <value>Varmuuskopion palautus onnistui</value>
+  </data>
+  <data name="MsgRestaurando" xml:space="preserve">
+    <value>Palauttaminen</value>
+  </data>
+  <data name="MsgAlertaBackup" xml:space="preserve">
+    <value>Kun uuden varmuuskopion poistaa edellisen; Oletko varma, että haluat jatkaa?.</value>
+  </data>
+  <data name="txtNo" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="txtSi" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>fi</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>GENERAL</comment>
+  </data>
+</root>

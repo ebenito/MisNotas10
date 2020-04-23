@@ -1,0 +1,36 @@
+﻿<Application
+    x:Class="MyNotes10.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyNotes10"
+    RequestedTheme="Light"
+    xmlns:locator="using:MyNotes10.ViewModels.Base">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <locator:ViewModelLocator x:Key="Locator"/>
+
+            <!--<Canvas x:Key="Icono">
+                <Path Data="F1 M 2.08,9.6 L 34.08,9.6 34.08,60.8 2.08,60.8 z"  Fill="#ff373737" />
+                <Path Data="F1 M 34.08,9.6 L 63.52,7.04 63.52,58.24 34.08,60.8 z"  Fill="#fffefde6" />
+                <Path Data="F1 M 34.08,9.6 L 4.64,7.04 4.64,58.24 34.08,60.8 z"  Fill="#ffdbdac6" />
+                <Path Data="F1 M 34.08,9.6 L 66.4,9.6 66.4,60.8 34.08,60.8 z" >
+                    <Path.Fill>
+                        <ImageBrush ImageSource="ms-appx:///Assets/Imagenes/Icono.png"   />
+                    </Path.Fill>
+                </Path>
+            </Canvas>-->
+
+            <Canvas x:Key="PapelFondo">
+                <Path Data="F1 M 0.32,0.32 L 141.12,0.32 141.12,151.2 0.32,151.2 z"  >
+                    <Path.Fill>
+                        <ImageBrush ImageSource="ms-appx:///Assets/Imagenes/PapelFondo.png" />
+                    </Path.Fill>
+                </Path>
+            </Canvas>
+            
+            
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

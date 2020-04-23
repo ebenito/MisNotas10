@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="B_Backup.Content" xml:space="preserve">
+    <value>Tee varmuuskopio</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="B_Restore.Content" xml:space="preserve">
+    <value>Varmuuskopion palauttaminen</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="B_SingInOnedrive.Content" xml:space="preserve">
+    <value>Kirjaudu sisään</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="DescriptionApp" xml:space="preserve">
+    <value>Minun huomauttaa voit luoda niin monta omat merkinnät kuin haluat. Nämä tallennetaan paikalliseen tietokantaan, joten niitä voi käyttää. \n\n voit myös tehdä muistiinpanoja että korko on ankkuroitu älypuhelimen aloitusnäytössä kuin live laatta, joka näyttää yhteenvedon nuotin. \n\n voit myös muokata ja poistaa merkinnät, kuten sinun. Lisäksi jos jokin suojattu toteaa alussa myös muokannut laatta tiedot päivitetään. \n\n Katso kommentteja käyttäjiä; vähimmäishinta, sinulla on todella hyödyllinen sovellus. nyt MyNotes on UWP App \n\n että ' alhainen että te kanisteri ajelu se Puhelin, Tablet PC-ja PC Windows 10. Enyoy se!</value>
+    <comment>Descripcion de la App</comment>
+  </data>
+  <data name="DisplayNameApp" xml:space="preserve">
+    <value>Omat muistiinpanot</value>
+    <comment>Nombre a mostrar en el menú de Windows</comment>
+  </data>
+  <data name="EntrarOnedrive" xml:space="preserve">
+    <value>Kirjaudu sisään</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>Todennusvirhe</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoAutenticado" xml:space="preserve">
+    <value>Nyt olet todennettu.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoAutenticadoUsuario" xml:space="preserve">
+    <value>, nyt on todennettu.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoEntraCuentaMS.Text" xml:space="preserve">
+    <value>Sinun täytyy kirjautua sisään Microsoft-Account.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoEntrarCuentaMS" xml:space="preserve">
+    <value>, sinun täytyy kirjautua sisään Microsoft-Account.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="LabelAccionEditar" xml:space="preserve">
+    <value>Muokkaa aihetta.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="LabelAccionNueva" xml:space="preserve">
+    <value>Luo uusi muistiinpano</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="LogoMy.Text" xml:space="preserve">
+    <value>Omat</value>
+  </data>
+  <data name="LogoNotes.Text" xml:space="preserve">
+    <value>Muistiinpanot</value>
+  </data>
+  <data name="MenuBackup" xml:space="preserve">
+    <value>Varmuuskopio</value>
+  </data>
+  <data name="MenuEditar" xml:space="preserve">
+    <value>Muokkaa</value>
+  </data>
+  <data name="MenuNueva" xml:space="preserve">
+    <value>Lisää uusi Huomautus</value>
+  </data>
+  <data name="MenuTodasNotas" xml:space="preserve">
+    <value>Show all Huomautus</value>
+  </data>
+  <data name="MenuValorar" xml:space="preserve">
+    <value>Luokitus tämä App</value>
+  </data>
+  <data name="MsgErrorGeneral" xml:space="preserve">
+    <value>Virhe:</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="MsgNoNotaEditar" xml:space="preserve">
+    <value>Et ole valinnut mitään huomautus Muokkaa; Se avautuu uusi Huomautus luontitila.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaActualizada" xml:space="preserve">
+    <value>Huomautus Päivitys onnistui.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaBorrada" xml:space="preserve">
+    <value>Huomautus poistettu.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaBorradaError" xml:space="preserve">
+    <value>Virhe poistettaessa Huomautus:</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaCreada" xml:space="preserve">
+    <value>Huomautus luotu.</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaCreadaError" xml:space="preserve">
+    <value>Virhe tallennettaessa Huomautus:</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgSalidaOneDrive" xml:space="preserve">
+    <value>Nyt olet lähtenyt OneDrive-palvelusta</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgSelectOrigenRestauracion" xml:space="preserve">
+    <value>Valitse palautettava tietojen lähde:</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgSelectOrigenRestauracionCap" xml:space="preserve">
+    <value>Lähde varmuuskopioinnin</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="NameApp" xml:space="preserve">
+    <value>Omat muistiinpanot</value>
+    <comment>Titulo de la App</comment>
+  </data>
+  <data name="ProblemaAutenticacion" xml:space="preserve">
+    <value>Ongelma, kun käyttäjien henkilöllisyys todennetaan!</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="SalirOneDrive" xml:space="preserve">
+    <value>Kirjaudu ulos</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="SearchTextBox.PlaceholderText" xml:space="preserve">
+    <value>Haku</value>
+  </data>
+  <data name="ImgTileMediano" xml:space="preserve">
+    <value>NotaTile-en.png</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgBackupFin" xml:space="preserve">
+    <value>Varmuuskopiointi onnistui</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgCantNotasEncontradas" xml:space="preserve">
+    <value>toteaa vuonna OneDrive varmuuskopiointi</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgContenidoNoEncontrado" xml:space="preserve">
+    <value>Sisältö ei löydy:</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgDescargando" xml:space="preserve">
+    <value>Lataus</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgDescargando2Parte" xml:space="preserve">
+    <value>toteaa, odota...</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgFinalizado" xml:space="preserve">
+    <value>Finnished!</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgNoEncontrado" xml:space="preserve">
+    <value>Ei löydy:</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgRestauracionFin" xml:space="preserve">
+    <value>Varmuuskopion palautus onnistui</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgRestaurando" xml:space="preserve">
+    <value>Palautetaan</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgAlertaBackup" xml:space="preserve">
+    <value>Kun uuden varmuuskopion poistaa edellisen; Oletko varma, että haluat jatkaa?.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="txtNo" xml:space="preserve">
+    <value>Ei</value>
+    <comment>General</comment>
+  </data>
+  <data name="txtSi" xml:space="preserve">
+    <value>Kyllä</value>
+    <comment>General</comment>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>fi-FI</value>
+    <comment>GENERAL: Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>GENERAL: Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="B_Aleman.Content" xml:space="preserve">
+    <value>Saksa</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Arabe.Content" xml:space="preserve">
+    <value>Arabia</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Espanol.Content" xml:space="preserve">
+    <value>espanja</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Frances.Content" xml:space="preserve">
+    <value>Ranska</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ingles.Content" xml:space="preserve">
+    <value>Englanti</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Catalan.Content" xml:space="preserve">
+    <value>katalaani</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Fines.Content" xml:space="preserve">
+    <value>Suomi</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Italiano.Content" xml:space="preserve">
+    <value>Italia</value>
+    <comment>SelIdioma</comment>
+  </data>
+  <data name="B_Ucraniano.Content" xml:space="preserve">
+    <value>Ukraina</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="MsgAlertBorraNota" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa valitun muistiinpanon?</value>
+    <comment>MainPageVM</comment>
+  </data>
+  <data name="MsgNoNotaEditarNoAbre" xml:space="preserve">
+    <value>Et ole valinnut mitään huomaa.</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_BorrarNota" xml:space="preserve">
+    <value>Poista Huomautus</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_EditarNota" xml:space="preserve">
+    <value>Muokkaushuomautus</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_Chino.Content" xml:space="preserve">
+    <value>kiina</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Hindi.Content" xml:space="preserve">
+    <value>hindi</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Japones.Content" xml:space="preserve">
+    <value>japani</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Portugues.Content" xml:space="preserve">
+    <value>portugali</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ruso.Content" xml:space="preserve">
+    <value>venäjä</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="MsgTrial" xml:space="preserve">
+    <value>Kanssa kokeiluversio voit luoda vain kolme muistiinpanoa. Haluatko ostaa täyden version ilman rajoituksia?</value>
+  </data>
+  <data name="TituloTrial" xml:space="preserve">
+    <value>Kokeiluversio </value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Tietosuoja</value>
+    <comment>Menu</comment>
+  </data>
+</root>

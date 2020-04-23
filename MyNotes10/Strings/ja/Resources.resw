@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="B_Backup.Content" xml:space="preserve">
+    <value>バックアップを作成します。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="B_Restore.Content" xml:space="preserve">
+    <value>バックアップを復元します。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="B_SingInOnedrive.Content" xml:space="preserve">
+    <value>ログイン</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="DescriptionApp" xml:space="preserve">
+    <value>'個人用メモ' 個人的な注釈を作成できます。これらは、あなたは常にそれらにアクセスがあるあなたのローカル データベースに格納されます。\n\n また、ノートを作ることができます各メモの概要が表示 ことがあなたのスマート フォン、タブレットまたは PC のホーム画面に固定されて生活を並べて表示するとします。\n\n また編集したりそれを必要に応じてメモを削除さらに先頭に固定されていくつかのメモを編集する場合もタイルの情報が更新されます。\n\n 今個人用のメモは、電話、タブレット、PC、Windows 10 でそれを実行することができますを意味する未知語処理アプリケーションです。それをお楽しみください!\n\n 翻訳する: 英語、フランス語、ドイツ、イタリア、ポルトガル語、フィンランド語、ロシア語、日本語、中国語、アラビア語、ヒンディー語、ウクライナ語、カタロニア語</value>
+    <comment>Descripcion de la App</comment>
+  </data>
+  <data name="DisplayNameApp" xml:space="preserve">
+    <value>マイ ノート</value>
+    <comment>Nombre a mostrar en el menú de Windows</comment>
+  </data>
+  <data name="EntrarOnedrive" xml:space="preserve">
+    <value>ログイン</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>認証エラー</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoAutenticado" xml:space="preserve">
+    <value>今あなたが認証されます。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoAutenticadoUsuario" xml:space="preserve">
+    <value>、今認証されます。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoEntraCuentaMS.Text" xml:space="preserve">
+    <value>Microsoft アカウントでログインする必要があります。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="InfoEntrarCuentaMS" xml:space="preserve">
+    <value>、Microsoft アカウントを使用してログインする必要があります。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="LabelAccionEditar" xml:space="preserve">
+    <value>このメモを編集します。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="LabelAccionNueva" xml:space="preserve">
+    <value>新しいメモを作成します。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="LogoMy.Text" xml:space="preserve">
+    <value>私の</value>
+  </data>
+  <data name="LogoNotes.Text" xml:space="preserve">
+    <value>メモ</value>
+  </data>
+  <data name="MenuBackup" xml:space="preserve">
+    <value>バックアップ</value>
+  </data>
+  <data name="MenuEditar" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="MenuNueva" xml:space="preserve">
+    <value>新しいメモを追加します。</value>
+  </data>
+  <data name="MenuTodasNotas" xml:space="preserve">
+    <value>すべてのメモを表示します。</value>
+  </data>
+  <data name="MenuValorar" xml:space="preserve">
+    <value>このアプリを評価します。</value>
+  </data>
+  <data name="MsgErrorGeneral" xml:space="preserve">
+    <value>エラーが発生しました。</value>
+    <comment>GENERAL</comment>
+  </data>
+  <data name="MsgNoNotaEditar" xml:space="preserve">
+    <value>を編集するメモを選択していない場合新しいメモの作成モードで開きます。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaActualizada" xml:space="preserve">
+    <value>メモ正常に更新されました。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaBorrada" xml:space="preserve">
+    <value>メモ正常に削除されました。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaBorradaError" xml:space="preserve">
+    <value>メモの削除中にエラーが発生しました。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaCreada" xml:space="preserve">
+    <value>メモが作成されました。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgNotaCreadaError" xml:space="preserve">
+    <value>メモの保存中にエラーが発生しました。</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgSalidaOneDrive" xml:space="preserve">
+    <value>今 OneDrive サービス終了する</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgSelectOrigenRestauracion" xml:space="preserve">
+    <value>復元するデータのソースを選択します。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgSelectOrigenRestauracionCap" xml:space="preserve">
+    <value>バックアップのソース</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="NameApp" xml:space="preserve">
+    <value>マイ ノート</value>
+    <comment>Titulo de la App</comment>
+  </data>
+  <data name="ProblemaAutenticacion" xml:space="preserve">
+    <value>認証時の問題!</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="SalirOneDrive" xml:space="preserve">
+    <value>ログアウト</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="SearchTextBox.PlaceholderText" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="ImgTileMediano" xml:space="preserve">
+    <value>NotaTile en.png</value>
+    <comment>GestionNotaVM</comment>
+  </data>
+  <data name="MsgBackupFin" xml:space="preserve">
+    <value>バックアップが正常に完了しました</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgCantNotasEncontradas" xml:space="preserve">
+    <value>OneDrive バックアップに設立されたノート</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgContenidoNoEncontrado" xml:space="preserve">
+    <value>コンテンツが見つかりませんでした。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgDescargando" xml:space="preserve">
+    <value>ダウンロード中</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgDescargando2Parte" xml:space="preserve">
+    <value>ノート、お待ちください.</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgFinalizado" xml:space="preserve">
+    <value>フィンランド！</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgNoEncontrado" xml:space="preserve">
+    <value>見つかりません。</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgRestauracionFin" xml:space="preserve">
+    <value>バックアップの復元が正常に完了しました</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgRestaurando" xml:space="preserve">
+    <value>復元中</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="MsgAlertaBackup" xml:space="preserve">
+    <value>新しいバックアップは消去前の際続行するよろしいですか?</value>
+    <comment>BackupOneDrive</comment>
+  </data>
+  <data name="txtNo" xml:space="preserve">
+    <value>いいえ</value>
+    <comment>General</comment>
+  </data>
+  <data name="txtSi" xml:space="preserve">
+    <value>はい</value>
+    <comment>General</comment>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>ja</value>
+    <comment>GENERAL: Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>GENERAL: Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="B_Aleman.Content" xml:space="preserve">
+    <value>ドイツ語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Arabe.Content" xml:space="preserve">
+    <value>アラビア語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Espanol.Content" xml:space="preserve">
+    <value>スペイン語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Frances.Content" xml:space="preserve">
+    <value>フランス語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ingles.Content" xml:space="preserve">
+    <value>英語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Catalan.Content" xml:space="preserve">
+    <value>カタルニア語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Fines.Content" xml:space="preserve">
+    <value>フィンランド語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Italiano.Content" xml:space="preserve">
+    <value>イタリア語</value>
+    <comment>SelIdioma</comment>
+  </data>
+  <data name="B_Ucraniano.Content" xml:space="preserve">
+    <value>ウクライナ語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="MsgAlertBorraNota" xml:space="preserve">
+    <value>選択したメモを削除するよろしいですか。</value>
+    <comment>MainPageVM</comment>
+  </data>
+  <data name="MsgNoNotaEditarNoAbre" xml:space="preserve">
+    <value>メモを選択していません。</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_BorrarNota" xml:space="preserve">
+    <value>メモを削除します。</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_EditarNota" xml:space="preserve">
+    <value>メモを編集します。</value>
+    <comment>MainPageCB</comment>
+  </data>
+  <data name="B_Chino.Content" xml:space="preserve">
+    <value>中国語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Hindi.Content" xml:space="preserve">
+    <value>ヒンディー語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Japones.Content" xml:space="preserve">
+    <value>日本語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Portugues.Content" xml:space="preserve">
+    <value>ポルトガル語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="B_Ruso.Content" xml:space="preserve">
+    <value>ロシア語</value>
+    <comment>Seldioma</comment>
+  </data>
+  <data name="MsgTrial" xml:space="preserve">
+    <value>体験版では、3 つのノートのみ作成できます。制限なし完全版を購入したいですか。</value>
+  </data>
+  <data name="TituloTrial" xml:space="preserve">
+    <value>試用版</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>プライバシー</value>
+    <comment>Menu</comment>
+  </data>
+</root>

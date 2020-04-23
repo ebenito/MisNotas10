@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="uk" original="MYNOTES10/STRINGS/EN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6799.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="MYNOTES10/STRINGS/EN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="btnCancelar" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Скасувати</target>
+        </trans-unit>
+        <trans-unit id="B_Backup.Content" translate="yes" xml:space="preserve">
+          <source>Make a backup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Резервного копіювання</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="B_Restore.Content" translate="yes" xml:space="preserve">
+          <source>Restore a backup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Відновлення резервної копії</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="B_SingInOnedrive.Content" translate="yes" xml:space="preserve">
+          <source>Log in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ввійти</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="DescriptionApp" translate="yes" xml:space="preserve">
+          <source>With 'My Notes' you can create as many personal notes as you want. These will be stored in your local database, so that you always have them accessible. \n\n In addition, you can make notes that you want are anchored in the home screen of your Smartphone, Tablet or PC, as a living tile that will show a summary of each note. \n\n You can also edit and delete notes as you need it; In addition if some note anchored at the beginning is edited also the information of the tile will be updated. \n\n Now My Notes is a UWP application, that means you can run it on your phone, tablet and PC, with Windows 10. Enjoy it! \n\n Translated to: English, French, German, Italian, Portuguese, Finnish, Russian, Japanese, Chinese, Arabic, Hindi, Ukrainian and Catalan</source>
+          <target state="final">З "Мої нотатки", ви можете створити стільки особистих відзначає, як ви хочете. Дані буде збережено в локальної бази даних, так що ви завжди їх доступними. \n\n також можна зробити нотатки що інтерес, ви на якір на початковому екрані вашого смартфона як живих іконок, яка покаже вам резюме кожної ноти. \n\n також можна редагувати та видаляйте примітки, як вам знадобиться; Крім того якщо будь-який забезпечених нотатки на початку також редагував плитка інформація буде оновлюватися. \n\n див Коментарі від наших користувачів; мінімальна ціна, у вас буде дійсно корисний додаток. \n\n зараз MyNotes, це UWP App, це означає, що ви можете запустити його в телефоні, планшеті та ПК під версії 10. Enyoy його!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Descripcion de la App</note>
+        </trans-unit>
+        <trans-unit id="DisplayNameApp" translate="yes" xml:space="preserve">
+          <source>My Notes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Мої нотатки</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Nombre a mostrar en el menú de Windows</note>
+        </trans-unit>
+        <trans-unit id="EntrarOnedrive" translate="yes" xml:space="preserve">
+          <source>Log in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ввійти</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="ErrorAutenticacion" translate="yes" xml:space="preserve">
+          <source>Authentication error</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Помилка автентифікації</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="InfoAutenticado" translate="yes" xml:space="preserve">
+          <source>Now you are authenticated.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Тепер ви зареєстровані.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="InfoAutenticadoUsuario" translate="yes" xml:space="preserve">
+          <source>, now you are authenticated.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">, тепер ви зареєстровані.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="InfoEntraCuentaMS.Text" translate="yes" xml:space="preserve">
+          <source>You must log in with your Microsoft Account.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Слід увійти до системи за допомогою облікового запису Microsoft.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="InfoEntrarCuentaMS" translate="yes" xml:space="preserve">
+          <source>, you must log in with your Microsoft Account.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">, ви повинні увійти в обліковий запис Microsoft.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="LabelAccionEditar" translate="yes" xml:space="preserve">
+          <source>Edit this note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Редагувати цю примітку</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="LabelAccionNueva" translate="yes" xml:space="preserve">
+          <source>Create a new note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Створити нову наліпку</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="LogoMy.Text" translate="yes" xml:space="preserve">
+          <source>My</source>
+          <target state="translated">Мої</target>
+        </trans-unit>
+        <trans-unit id="LogoNotes.Text" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="translated">нотатки</target>
+        </trans-unit>
+        <trans-unit id="MenuBackup" translate="yes" xml:space="preserve">
+          <source>Backup</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Резервна копія</target>
+        </trans-unit>
+        <trans-unit id="MenuEditar" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Редагувати</target>
+        </trans-unit>
+        <trans-unit id="MenuNueva" translate="yes" xml:space="preserve">
+          <source>Add a new note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Додати нову примітку</target>
+        </trans-unit>
+        <trans-unit id="MenuTodasNotas" translate="yes" xml:space="preserve">
+          <source>Show all notes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показати всі нотатки</target>
+        </trans-unit>
+        <trans-unit id="MenuValorar" translate="yes" xml:space="preserve">
+          <source>Rate this App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Оцінити це ОК</target>
+        </trans-unit>
+        <trans-unit id="MsgErrorGeneral" translate="yes" xml:space="preserve">
+          <source>An error has occurred:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сталася помилка:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GENERAL</note>
+        </trans-unit>
+        <trans-unit id="MsgNoNotaEditar" translate="yes" xml:space="preserve">
+          <source>You have not selected any note to edit; It opens in a new note creation mode.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви не встановлено будь-яких Примітка відредагувати; Він відкриває новий режим створення Примітка.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgNotaActualizada" translate="yes" xml:space="preserve">
+          <source>Note updated successfully.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Примітка успішно оновлено.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgNotaBorrada" translate="yes" xml:space="preserve">
+          <source>Note deleted successfully.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Примітка успішно видалено.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgNotaBorradaError" translate="yes" xml:space="preserve">
+          <source>An error has occurred while deleting the note:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сталася помилка під час видалення примітки:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgNotaCreada" translate="yes" xml:space="preserve">
+          <source>Note created successfully.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Примітка успішно створено.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgNotaCreadaError" translate="yes" xml:space="preserve">
+          <source>An error has occurred while saving the note:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сталася помилка під час збереження примітки:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgSalidaOneDrive" translate="yes" xml:space="preserve">
+          <source>Now you are exited from OneDrive service</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Тепер ви виходили з OneDrive служби</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgSelectOrigenRestauracion" translate="yes" xml:space="preserve">
+          <source>Select the source of the data to be restored:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Виберіть джерело даних для відновлення:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgSelectOrigenRestauracionCap" translate="yes" xml:space="preserve">
+          <source>Source of your Backup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Джерела резервного копіювання</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="NameApp" translate="yes" xml:space="preserve">
+          <source>My Notes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Мої нотатки</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Titulo de la App</note>
+        </trans-unit>
+        <trans-unit id="ProblemaAutenticacion" translate="yes" xml:space="preserve">
+          <source>Problem when authenticating!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Проблема автентифікації!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="SalirOneDrive" translate="yes" xml:space="preserve">
+          <source>Log out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Вийти</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="SearchTextBox.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Пошук</target>
+        </trans-unit>
+        <trans-unit id="ImgTileMediano" translate="yes" xml:space="preserve">
+          <source>NotaTile-en.png</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">NotaTile-en.png</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GestionNotaVM</note>
+        </trans-unit>
+        <trans-unit id="MsgBackupFin" translate="yes" xml:space="preserve">
+          <source>Backup completed successfully</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Резервне копіювання завершено</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgCantNotasEncontradas" translate="yes" xml:space="preserve">
+          <source>notes founded in your OneDrive Backup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Нотатки, заснована в OneDrive резервного копіювання</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgContenidoNoEncontrado" translate="yes" xml:space="preserve">
+          <source>Content not found:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вмісту не знайдено:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgDescargando" translate="yes" xml:space="preserve">
+          <source>Downloading</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завантаження</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgDescargando2Parte" translate="yes" xml:space="preserve">
+          <source>notes, please wait ...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Нотатки, зачекайте...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgFinalizado" translate="yes" xml:space="preserve">
+          <source>Finnished!!!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FINNISHED!!!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgNoEncontrado" translate="yes" xml:space="preserve">
+          <source>Not found:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Не знайдено:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgRestauracionFin" translate="yes" xml:space="preserve">
+          <source>Backup restore completed successfully</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Резервного копіювання відновлення завершено успішно</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgRestaurando" translate="yes" xml:space="preserve">
+          <source>Restoring</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Триває відновлення</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="MsgAlertaBackup" translate="yes" xml:space="preserve">
+          <source>When making a new backup will erase the previous; Are you sure you want to continue ?.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Під час створення нової резервної копії буде стерти попередній; Ви впевнені, що бажаєте продовжити?.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">BackupOneDrive</note>
+        </trans-unit>
+        <trans-unit id="txtNo" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ні</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">General</note>
+        </trans-unit>
+        <trans-unit id="txtSi" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Так</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">General</note>
+        </trans-unit>
+        <trans-unit id="Idioma" translate="yes" xml:space="preserve">
+          <source>en</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">uk</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GENERAL: Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GENERAL: Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="B_Aleman.Content" translate="yes" xml:space="preserve">
+          <source>German</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">німецька</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Arabe.Content" translate="yes" xml:space="preserve">
+          <source>Arabic</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">арабська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Espanol.Content" translate="yes" xml:space="preserve">
+          <source>Spanish</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">іспанська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Frances.Content" translate="yes" xml:space="preserve">
+          <source>French</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">французька</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Ingles.Content" translate="yes" xml:space="preserve">
+          <source>English</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Англійська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Catalan.Content" translate="yes" xml:space="preserve">
+          <source>Catalan</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">каталонська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Fines.Content" translate="yes" xml:space="preserve">
+          <source>Finnish</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">фінська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Italiano.Content" translate="yes" xml:space="preserve">
+          <source>Italian</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Італійська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SelIdioma</note>
+        </trans-unit>
+        <trans-unit id="B_Ucraniano.Content" translate="yes" xml:space="preserve">
+          <source>Ukrainian</source>
+          <target state="final" state-qualifier="tm-suggestion">українська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="MsgAlertBorraNota" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the selected note?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Справді видалити вибрану нотатку?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainPageVM</note>
+        </trans-unit>
+        <trans-unit id="MsgNoNotaEditarNoAbre" translate="yes" xml:space="preserve">
+          <source>You have not selected any note.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви не встановлено будь-яких Примітка.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainPageCB</note>
+        </trans-unit>
+        <trans-unit id="B_BorrarNota" translate="yes" xml:space="preserve">
+          <source>Delete note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Видалення примітки</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainPageCB</note>
+        </trans-unit>
+        <trans-unit id="B_EditarNota" translate="yes" xml:space="preserve">
+          <source>Edit note</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Редагувати примітку</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainPageCB</note>
+        </trans-unit>
+        <trans-unit id="B_Chino.Content" translate="yes" xml:space="preserve">
+          <source>Chinese</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Китайська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Hindi.Content" translate="yes" xml:space="preserve">
+          <source>Hindi</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Хінді</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Japones.Content" translate="yes" xml:space="preserve">
+          <source>Japanese</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Японська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Portugues.Content" translate="yes" xml:space="preserve">
+          <source>Portuguese</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">портуґальська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="B_Ruso.Content" translate="yes" xml:space="preserve">
+          <source>Russian</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">російська</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Seldioma</note>
+        </trans-unit>
+        <trans-unit id="MsgTrial" translate="yes" xml:space="preserve">
+          <source>With the TRIAL version you can only create three notes. Want to purchase the full version without limits?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">З демо-версію можна створити лише три записки. Хочете придбати повну версію без обмежень?</target>
+        </trans-unit>
+        <trans-unit id="TituloTrial" translate="yes" xml:space="preserve">
+          <source>Trial Version</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пробна версія</target>
+        </trans-unit>
+        <trans-unit id="Privacy" translate="yes" xml:space="preserve">
+          <source>Privacy</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Конфіденційність</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Menu</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
