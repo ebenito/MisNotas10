@@ -4,3 +4,5 @@ UWP App para tomar notas
  * C#
  * OneDrive
  * SQLite
+
+Puede instalarse desde la tienda de Windows: https://www.microsoft.com/store/apps/9NBLGGH4RP1N
