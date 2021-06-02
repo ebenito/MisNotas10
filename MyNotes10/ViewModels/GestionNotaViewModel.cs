@@ -4,15 +4,11 @@ using MyNotes10.Services.NavigationService;
 using MyNotes10.Services.NotaService;
 using MyNotes10.ViewModels.Base;
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Windows.ApplicationModel.Email;
 using Windows.ApplicationModel.Resources.Core;
-using Windows.Storage;
 using Windows.UI;
 using Windows.UI.Notifications;
 using Windows.UI.Popups;
@@ -316,25 +312,33 @@ namespace MyNotes10.ViewModels
 
         private async void sendByEmailCommandExecute()
         {
-            EmailMessage emailMessage = new EmailMessage();
-            string asunto = AuxNota.Asunto;
-            string cuerpo = AuxNota.Detalle;
+            if (AuxNota.Id == 0)
+            {
+                _dialogService.ShowMessage("Before send the note you must save it.", traduce("NameApp"));
+            }
+            else
+            {
+                EmailMessage emailMessage = new EmailMessage();
+                string asunto = AuxNota.Asunto;
+                string cuerpo = AuxNota.Detalle;
 
-            emailMessage.Subject = asunto;
-            emailMessage.Body = cuerpo;
+                emailMessage.Subject = asunto;
+                emailMessage.Body = cuerpo;
 
-            //StorageFolder MyFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
-            //StorageFile attachmentFile = await MyFolder.GetFileAsync("MyTestFile.txt");
-            //if (attachmentFile != null)
-            //{
-            //    var stream = Windows.Storage.Streams.RandomAccessStreamReference.CreateFromFile(attachmentFile);
-            //    var attachment = new Windows.ApplicationModel.Email.EmailAttachment(
-            //             attachmentFile.Name,
-            //             stream);
-            //    emailMessage.Attachments.Add(attachment);
-            //}
+                //StorageFolder MyFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                //StorageFile attachmentFile = await MyFolder.GetFileAsync("MyTestFile.txt");
+                //if (attachmentFile != null)
+                //{
+                //    var stream = Windows.Storage.Streams.RandomAccessStreamReference.CreateFromFile(attachmentFile);
+                //    var attachment = new Windows.ApplicationModel.Email.EmailAttachment(
+                //             attachmentFile.Name,
+                //             stream);
+                //    emailMessage.Attachments.Add(attachment);
+                //}
 
-            await EmailManager.ShowComposeNewEmailAsync(emailMessage);
+                await EmailManager.ShowComposeNewEmailAsync(emailMessage);
+            }
+           
         }
 
         private async void pinToStartCommandExecute()
@@ -374,35 +378,42 @@ namespace MyNotes10.ViewModels
 
 
                 //AÑADO DETALLES:
-                string tileXmlString = "<tile>"
-                                    + "<visual version='2'>"
-                                    + "<binding template='TileWide' branding='nameAndLogo'>"
-                                    + "<text hint-style='subtitle' hint-align='center'>" + AuxNota.Asunto + "</text>"
-                                    + "<text hint-style='captionSubtle' hint-wrap='true'>" + AuxNota.Detalle.Replace("\r\n", " - ") + "</text>"
-                                    + "</binding>"
-                                    + "<binding template='TileSquare150x150Text04' fallback='TileSquareText04' branding='none'>"
-                                    + "<image placement='peek' src='Assets/Imagenes/" + traduce("ImgTileMediano") + "' />"
-                                    + "<text id='1'>" + AuxNota.Asunto + ": " + AuxNota.Detalle + "</text>"
-                                    + "</binding>"
-                                    + "</visual>"
-                                    + "</tile>";
-
-                Windows.Data.Xml.Dom.XmlDocument tileDOM = new Windows.Data.Xml.Dom.XmlDocument();
-                tileDOM.LoadXml(tileXmlString);
-                TileNotification tile = new TileNotification(tileDOM);
-
-                // Send the notification to the secondary tile by creating a secondary tile updater
-                TileUpdateManager.CreateTileUpdaterForSecondaryTile(tileID).Update(tile);
-
-                string _deviceFamily;
-
-                var qualifiers = ResourceContext.GetForCurrentView().QualifierValues;
-                _deviceFamily = qualifiers.First(q => q.Key.Equals("DeviceFamily")).Value;
-
-                if (_deviceFamily.Equals("Mobile"))
+                if (AuxNota.Id == 0)
                 {
-                    _dialogService.ShowMessage("Se ha anclado correctamente la nota al menú de inicio", traduce("NameApp"));
-                }                
+                    _dialogService.ShowMessage("Before anchor the note you must save it.", traduce("NameApp"));
+                }
+                else
+                { 
+                    string tileXmlString = "<tile>"
+                                        + "<visual version='2'>"
+                                        + "<binding template='TileWide' branding='nameAndLogo'>"
+                                        + "<text hint-style='subtitle' hint-align='center'>" + AuxNota.Asunto + "</text>"
+                                        + "<text hint-style='captionSubtle' hint-wrap='true'>" + AuxNota.Detalle.Replace("\r\n", " - ") + "</text>"
+                                        + "</binding>"
+                                        + "<binding template='TileSquare150x150Text04' fallback='TileSquareText04' branding='none'>"
+                                        + "<image placement='peek' src='Assets/Imagenes/" + traduce("ImgTileMediano") + "' />"
+                                        + "<text id='1'>" + AuxNota.Asunto + ": " + AuxNota.Detalle + "</text>"
+                                        + "</binding>"
+                                        + "</visual>"
+                                        + "</tile>";
+
+                    Windows.Data.Xml.Dom.XmlDocument tileDOM = new Windows.Data.Xml.Dom.XmlDocument();
+                    tileDOM.LoadXml(tileXmlString);
+                    TileNotification tile = new TileNotification(tileDOM);
+
+                    // Send the notification to the secondary tile by creating a secondary tile updater
+                    TileUpdateManager.CreateTileUpdaterForSecondaryTile(tileID).Update(tile);
+
+                    string _deviceFamily;
+
+                    var qualifiers = ResourceContext.GetForCurrentView().QualifierValues;
+                    _deviceFamily = qualifiers.First(q => q.Key.Equals("DeviceFamily")).Value;
+
+                    if (_deviceFamily.Equals("Mobile"))
+                    {
+                        _dialogService.ShowMessage("Se ha anclado correctamente la nota al menú de inicio", traduce("NameApp"));
+                    }      
+                }                          
             }
             catch (Exception ex)
             {

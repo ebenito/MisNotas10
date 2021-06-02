@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("AppsWP")]
 [assembly: AssemblyProduct("MyNotes10")]
-[assembly: AssemblyCopyright("Copyright ©  2016-7")]
+[assembly: AssemblyCopyright("Copyright ©  2016-7, 2021")]
 [assembly: AssemblyTrademark("MyNotes")]
 [assembly: AssemblyCulture("")]
 
@@ -25,8 +25,8 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.7.35.2")]
-[assembly: AssemblyFileVersion("3.7.35.2")]
+[assembly: AssemblyVersion("3.8.5.0")]
+[assembly: AssemblyFileVersion("3.8.5.0")]
 [assembly: ComVisible(false)]
 [assembly: NeutralResourcesLanguage("en")]
 

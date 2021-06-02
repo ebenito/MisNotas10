@@ -1,20 +1,17 @@
-﻿using Microsoft.Practices.Unity;
-using MyNotes10.Services.NotaService;
-using MyNotes10.Services.DialogService;
+﻿using MyNotes10.Services.DialogService;
 using MyNotes10.Services.LoaderService;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MyNotes10.Services.NavigationService;
-using Microsoft.Practices.ServiceLocation;
+using MyNotes10.Services.NotaService;
+using System;
+using Unity;
+using Unity.Lifetime;
+using Unity.ServiceLocator;
 
 namespace MyNotes10.ViewModels.Base
 {
     public class ViewModelLocator : IDisposable
     {
-        readonly IUnityContainer _container;
+        readonly Unity.IUnityContainer _container;
 
         public ViewModelLocator()
         {
