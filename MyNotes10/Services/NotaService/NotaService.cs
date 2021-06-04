@@ -87,5 +87,26 @@ namespace MyNotes10.Services.NotaService
                 });
             }
         }
+
+        public List<Nota> SortNotas(string SortOrder)
+        {
+            List<Nota> result;
+            using (var conn = new SQLiteConnection(new SQLitePlatformWinRT(), path))
+            {
+                if (SortOrder == "ASC")
+                {
+                    result = (from n in conn.Table<Nota>()
+                              orderby n.Asunto
+                              select n).ToList();
+                }
+                else
+                {
+                    result = (from n in conn.Table<Nota>()
+                              orderby n.Asunto descending
+                              select n).ToList();
+                }
+            }
+            return result;
+        }
     }
 }

@@ -114,13 +114,12 @@ namespace MyNotes10.Views
         {
             if (App.IsMenuVisible)
             {
-                Separar.Width = 50;
+                SepararDeMenu.Width = 0;
             }
             else
             {
-                Separar.Width = 0;
+                SepararDeMenu.Width = 40;
             }
-
         }
 
         private void CreaMenu()

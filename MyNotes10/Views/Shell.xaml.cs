@@ -51,7 +51,16 @@ namespace MyNotes10.Views
             try
             {
                 Logo.Visibility = MySplitView.IsPaneOpen ? Visibility.Visible : Visibility.Collapsed;
-                App.IsMenuVisible = MySplitView.IsPaneOpen;
+
+                if (!MySplitView.IsPaneOpen && MySplitView.DisplayMode == SplitViewDisplayMode.CompactOverlay)
+                {
+                    App.IsMenuVisible = true;                    
+                }
+                else
+                {  
+                    App.IsMenuVisible = MySplitView.IsPaneOpen;
+                }
+               
 
                 //QuitaLogoSiApaisado();
                 //string x = MySplitView.IsPaneOpen ? "Sí" : "No";

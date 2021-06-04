@@ -111,7 +111,7 @@ namespace MyNotes10.ViewModels
         
         private DelegateCommand<string> _TextoABuscarCommand;
         //private DelegateCommand<string> _TraduceCadenaCommand;
-       // private DelegateCommand<string> _CambiaIdiomaCommand;
+        // private DelegateCommand<string> _CambiaIdiomaCommand;
 
         private DelegateCommand openStoreCommand;
 
@@ -170,11 +170,21 @@ namespace MyNotes10.ViewModels
             }
         }
 
+        public ICommand SortCommand
+        {
+            get { return new DelegateCommand<string>(SortCommandExecute); }
+        }
+
         public ICommand TextoABuscarCommand
         {
             get { return _TextoABuscarCommand = _TextoABuscarCommand ?? new DelegateCommand<string>(TextoABuscarCommandExecute); }
         }
 
+        private void SortCommandExecute(string SortOrder)
+        {
+            NotaList = new ObservableCollection<Nota>(_notaService.SortNotas(SortOrder));
+            ClearNota();
+        }
         private void TextoABuscarCommandExecute(string busca)
         {
             NotaList = new ObservableCollection<Nota>(_notaService.SearchNotas(busca));

@@ -29,18 +29,50 @@
                         <CustomTriggers:PlatformStateTrigger Platform="WindowsPhone" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="Separar.Width"
+                        <Setter Target="SepararDeMenu.Width"
                                 Value="0" />
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
         <RelativePanel>
-            <!--<Button Name="BackButton"
+
+            <Rectangle x:Name="SepararDeMenu" Width="0" 
+                    RelativePanel.AlignLeftWithPanel="True"  />
+
+            <Button Name="SortUpButton"
                     FontFamily="Segoe MDl2 Assets" 
                     FontSize="36"
-                    Content="&#xE0C4;" VerticalAlignment="Bottom" Click="BackButton_Click"  />-->
-            <Rectangle x:Name="Separar" Width="35" />
+                    Content="&#xE96D;"
+                    Command="{Binding SortCommand}" 
+                    CommandParameter="ASC" 
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"   
+                    RelativePanel.RightOf="SepararDeMenu"
+                    Width="60" 
+                    ToolTipService.ToolTip="Sort ascending" />
+            <Button Name="SortDownButton"
+                    FontFamily="Segoe MDl2 Assets" 
+                    FontSize="36"
+                    Content="&#xE96E;" 
+                    Command="{Binding SortCommand}" 
+                    CommandParameter="DESC" 
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    RelativePanel.RightOf="SortUpButton"           
+                    Width="60" 
+                    ToolTipService.ToolTip="Sort descending"/>
+
+            <TextBox x:Uid="SearchTextBox"  
+                     x:Name="SearchTextBox" 
+                     RelativePanel.RightOf="SortDownButton" 
+                     RelativePanel.LeftOf="SearchButton" 
+                     Height="48"
+                     FontSize="24"
+                     TextAlignment="Left"
+                     PlaceholderText="Search" 
+                     AcceptsReturn="True"  />
+
             <Button x:Name="SearchButton" 
                     Command="{Binding TextoABuscarCommand}" 
                     CommandParameter="{Binding Text, ElementName=SearchTextBox}"  
@@ -48,16 +80,6 @@
                     FontFamily="Segoe MDL2 Assets"
                     FontSize="36" 
                     Content="&#xE1A3;" />
-
-            <TextBox x:Uid="SearchTextBox"  
-                     x:Name="SearchTextBox" 
-                     RelativePanel.LeftOf="SearchButton" 
-                     RelativePanel.RightOf="Separar"
-                     Height="48"
-                     FontSize="24"
-                     TextAlignment="Left"
-                     PlaceholderText="Search" 
-                     AcceptsReturn="True" />
         </RelativePanel>
 
         <ListView x:Name="lstNotas" SelectedItem="{Binding AuxNota, Mode=TwoWay}" ItemsSource="{Binding NotaList}" Margin="0,50,0,0" CanReorderItems="True" AllowDrop="True" DragItemsCompleted="ListView_DragItemsCompleted">

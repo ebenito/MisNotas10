@@ -50,7 +50,9 @@ namespace MyNotes10
 
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            
+
+            IsMenuVisible = true;
+
             // OneDrive Client ID
             ServiceInstance = new OneDriveService("0000000040110993"); //Mis Notas
         }
@@ -238,7 +240,7 @@ namespace MyNotes10
             // return string.Format("{0}.{1}.{2}.{3}", version.Major, version.Minor, version.Build, version.Revision);
             return string.Format("{0}.{1}.{2}", version.Major, version.Minor, version.Build);
         }
-
+               
         public static string DbConnectionString
         {
             get
