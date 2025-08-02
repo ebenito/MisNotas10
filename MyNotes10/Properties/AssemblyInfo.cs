@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MyNotes10")]
-[assembly: AssemblyDescription("My Notes for Windows 10")]
+[assembly: AssemblyDescription("My Notes for Windows")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("AppsWP")]
 [assembly: AssemblyProduct("MyNotes10")]
-[assembly: AssemblyCopyright("Copyright ©  2016-7, 2021")]
+[assembly: AssemblyCopyright("Copyright ©  2016-7, 2025")]
 [assembly: AssemblyTrademark("MyNotes")]
 [assembly: AssemblyCulture("")]
 
@@ -25,8 +25,8 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.8.10.0")]
-[assembly: AssemblyFileVersion("3.8.10.0")]
+[assembly: AssemblyVersion("3.9.0.0")]
+[assembly: AssemblyFileVersion("3.9.0.0")]
 [assembly: ComVisible(false)]
 [assembly: NeutralResourcesLanguage("en")]
 
