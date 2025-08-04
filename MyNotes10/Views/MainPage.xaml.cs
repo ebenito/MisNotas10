@@ -147,8 +147,11 @@ namespace MyNotes10.Views
             myItem = new MenuItem() { Glyph = "", Text = "Language", NavigationDestination = typeof(Seldioma) };
             (this.DataContext as ViewModelBase).Menu.Add(myItem);
 
-            myItem = new MenuItem() { Glyph = "", Text = traduce("Privacy"), Command = (DataContext as MainPageViewModel).OpenPrivacyCommand };
+            myItem = new MenuItem() { Glyph = "", Text = traduce("Privacy"), NavigationDestination = typeof(PrivacyPage) };
             (this.DataContext as ViewModelBase).Menu.Add(myItem);
+
+            //myItem = new MenuItem() { Glyph = "", Text = traduce("Privacy"), Command = (DataContext as MainPageViewModel).OpenPrivacyCommand };
+            //(this.DataContext as ViewModelBase).Menu.Add(myItem);
         }
 
         string traduce(string cadena)

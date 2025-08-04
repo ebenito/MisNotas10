@@ -1,6 +1,6 @@
 ﻿using MyNotes10.Models;
-using MyNotes10.Services.LoaderService;
 using MyNotes10.Services.DialogService;
+using MyNotes10.Services.LoaderService;
 using MyNotes10.Services.NotaService;
 using MyNotes10.ViewModels.Base;
 using System;
@@ -11,8 +11,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Windows.System;
-using Windows.UI.Xaml.Navigation;
 using Windows.UI.Popups;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Navigation;
 
 namespace MyNotes10.ViewModels
 {
@@ -246,17 +248,20 @@ namespace MyNotes10.ViewModels
 
         private async void OpenPrivacyCommandExecute()
         {
-            string @url;
-            if (Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView().GetString("Idioma") == "es")
-            {
-                @url = "https://www.darweb.es/PoliticaPrivacidadOneDrive.htm";
-            }
-            else
-            {
-                @url = "https://www.darweb.es/PrivacyOneDrive.html";
-            }
-            var uri = new Uri(@url);
-            await Launcher.LaunchUriAsync(uri);
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame?.Navigate(typeof(Views.PrivacyPage));
+
+            //string @url;
+            //if (Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView().GetString("Idioma") == "es")
+            //{
+            //    @url = "https://www.darweb.es/PoliticaPrivacidadOneDrive.htm";
+            //}
+            //else
+            //{
+            //    @url = "https://www.darweb.es/PrivacyOneDrive.html";
+            //}
+            //var uri = new Uri(@url);
+            //await Launcher.LaunchUriAsync(uri);
         }
 
 

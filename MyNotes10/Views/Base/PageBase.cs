@@ -25,7 +25,7 @@ namespace MyNotes10.Views.Base
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             base.OnNavigatedFrom(e);
-            _vm.OnNavigatedFrom(e);
+            _vm?.OnNavigatedFrom(e); // Solo se llama si _vm no es null
         }
     }
 }

@@ -117,6 +117,12 @@
     <Content Include="Assets\BadgeLogo.scale-150.png" />
     <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <EmbeddedResource Include="Assets\Privacy\privacy_es.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\Privacy\privacy_en.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="Assets\Imagenes\NotaTile-en.png" />
     <Content Include="Assets\Imagenes\Square150x150Tile.png" />
     <Content Include="Assets\Imagenes\Wide310x150Tile.png" />
@@ -220,6 +226,9 @@
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\PrivacyPage.xaml.cs">
+      <DependentUpon>PrivacyPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Seldioma.xaml.cs">
       <DependentUpon>Seldioma.xaml</DependentUpon>
     </Compile>
@@ -267,6 +276,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PrivacyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
